@@ -1,1 +1,1 @@
-web: gunicorn celtic.wsgi.application
+web: gunicorn celtic.wsgi:application
