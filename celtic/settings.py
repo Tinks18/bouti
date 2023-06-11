@@ -138,17 +138,13 @@ WSGI_APPLICATION = 'celtic.wsgi.application'
 #         }
 #     }
 
+
 DATABASES = {
-     'default': dj_database_url.parse('postgres://escffbbu:yZ2JXAObExdB71Mbmkd4VexKEeEkts35@mel.db.elephantsql.com/escffbbu')
- }
-
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 
 
 # Password validation
