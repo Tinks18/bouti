@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['celtic.herokuapp.com', '8000-tinks18-bouti-xoznh8xs1ue.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ['celtic-tile.herokuapp.com', '8000-tinks18-bouti-xoznh8xs1ue.ws-eu99.gitpod.io']
 
 
 # Application definition
@@ -125,6 +125,8 @@ WSGI_APPLICATION = 'celtic.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+
+
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
