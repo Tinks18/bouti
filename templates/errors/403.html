@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="d-flex flex-column align-items-center">
+    <h1>403 Forbidden</h1>
+    <p>You are not authorised to perform this action!</p>
+
+    <div class="my-5">
+        <h4>
+            <a href="{% url 'products' %}" 
+                class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">
+                    Return to shop
+            </a>
+        </h4>
+    </div>
+</div>
+{% endblock %}

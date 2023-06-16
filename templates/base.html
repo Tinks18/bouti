@@ -6,8 +6,17 @@
 
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
+        <meta data-rh="true" name="charset" content="UTF8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Beautiful, floor and wall tiles for any home or office project.Imported for all over the world giving you a wide rangeof choice." data-rh="true">
+        <meta name="keywords" content="">
+        <meta data-rh="true" name="mobile-web-app-capable" content="yes">
+        <meta data-rh="true" name="apple-mobile-web-app-capable" content="yes">
+        <meta data-rh="true" name="apple-mobile-web-app-title" content="Celtic">
+        <meta data-rh="true" name="application-name" content="Celtic">
+        <meta data-rh="true" name="author" content="Celtic">
+        <meta data-rh="true" name="msapplication-config" content="browserconfig.xml">
+        
     {% endblock %}
 
     {% block extra_meta %}
@@ -136,6 +145,9 @@
 
     {% block content %}
     {% endblock %}
+
+     <!-- Footer -->
+     {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
     <script type="text/javascript">
