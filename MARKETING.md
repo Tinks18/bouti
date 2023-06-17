@@ -129,4 +129,4 @@ Any paid marketing strategies were beyond the scope and requirements for this pr
     Newsletter content could potentially be an early release of blog content, reducing the time needed for content creation.
     The newsletter subscription is completely optional for customers. The service is represented on the site in the footer as a small form, rather than an obtrusive pop-up so many other sites resort to these days.
 
-[⮪ Return back to readme](README.md) 
+[⮪ Return back to readme](README.md)  | [Back to Top 🠕](#SEO-and-Marketing-Research)
