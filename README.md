@@ -265,7 +265,7 @@ For an extensive overview of the marketing research for this project, please ref
 - Shop logo as default home link
 - Navigation options dependant of user authentication/authorisation
 
-![navbar desktop](/media/readme/features/nav.png)
+![navbar desktop](/media/readme/navigation_bar.png)
 ![navbar mobile](/media/readme/features/nav-mobile.png)
 
 
