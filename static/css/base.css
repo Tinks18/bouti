@@ -329,19 +329,7 @@ input[name='q']::placeholder {
 }
 
 /* Footer */
-.footer {
-    background-color: black;
-}
-/* 
-.text-white a {
-    font-size: 1rem;
-    text-decoration: none; 
-    color: white;
-}
 
-.text-white a:hover {
-    color: #ddc439;
-} */
 
 /* ----------------------------------------Footer */
 
@@ -394,3 +382,23 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/* ----------------------------------------Mail chimp */
+
+
+#mc_embed_signup {
+    color: white;
+    background: black;
+    clear:left;
+}
+
+#mc_embed_signup form {
+    margin-right: 0;
+}
+
+#mc_embed_signup .button {
+    
+    background-color: #fafafa;
+    text-transform: uppercase;
+}
+

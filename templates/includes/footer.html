@@ -1,8 +1,9 @@
 </section>
 <footer class="container-fluid ">
+
     <div id="footer-details" class="row">
         <div class="col-sm-4 ">
-            <h4 class="uppercase general-sub">About</h4>
+            <h2 class="uppercase general-sub">About</h2>
             <p class="inline-block">
                 Celtic Tiles is a company driven by an endless passion for helping you
                 find the perfect tile for your project.
@@ -11,7 +12,7 @@
 
             <div class="Contact us">
                 <!-- Address -->
-                <h4 class="uppercase general-sub">Address </h4>
+                <h2 class="uppercase general-sub">Address </h2>
                 <p class="inline-block">
                     Business Park
                     <br>
@@ -24,16 +25,9 @@
         </div>
 
         <div class="col-sm-4 ">
-            <h4>Subscribe!</h4>
-            <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
-            <!-- Mailchimp signup form here -->
-
-        </div>
-        
-        <div class="col-sm-4 ">
 
             <!-- Social Links -->
-            <h4 class="uppercase general-sub">Social</h4>
+            <h2 class="uppercase general-sub">Social</h2>
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
                     <a target="_blank" href="#">
@@ -74,7 +68,7 @@
             </ul>
 
             <!-- opening times  -->
-            <h4 class="uppercase general-sub">Opening hours</h4>
+            <h2 class="uppercase general-sub">Opening hours</h2>
             <p class="inline-block">
                 Monday - Friday: 8am - 8pm
                 <br>
@@ -83,6 +77,15 @@
                 Closed Sunday and Bank Holidays
             </p>
         </div>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div class="col-sm-4 ">
+
+            {% include 'includes/mailchimp.html' %}
+
+        </div>
+
+
 
     </div>
 
@@ -109,4 +112,5 @@
             </li>
         </ul>
     </div>
+
 </footer>
