@@ -326,7 +326,7 @@ No actual newsletter is set up to be sent out to subscribers. However, the infra
 
 To verify that a payment was successful, I went to the Stripe website to confirm that both the event and webhook creation showed no errors.
 
-![stripe event](/media/readme/payment_intent.png)
+![stripe event](/media/readme/payment-intent.png)
 
 
 ### User Feedback
