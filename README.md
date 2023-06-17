@@ -159,6 +159,25 @@ On the site, customers can view different types of tiles the business offers. Ti
 
 #### Strategy
 
+Strategy
+Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
+
+Celtic Tile's target users are:
+
+Aged 18-80
+Past/future home improvement enthusiasts
+People interested in garden and interior decoration
+Have an interest in visiting showroom
+What these users would be looking for:
+
+Clear, concise, easy-to-find information
+Beautiful photos that provide inspiration and make the products look desirable
+Helpful guidance on materials required
+Recommendations for types of tiles
+This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with guides.
+
+Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
+
 Addresses user's needs and product objectives.
 The user here has been identified as a person residing in the Dublin region of Ireland who is interested in buying or already planning for home improvements.
 Their needs are therefore a selection of different types of floor tiles (with different purposes), an easy way of making a selection from those and a simple payment method along with the selection process. 
