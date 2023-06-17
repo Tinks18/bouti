@@ -81,7 +81,7 @@ We separated user stories into 5 logical categories, or milestones, and furtherm
 
 For full details please check out our link on Github: [V.S. Store User Stories](https://github.com/users/Tinks18/projects/21)
 
-![kanban](media/user-stories.png)
+![kanban](media/readme/kanban.png)
 
 #### EPIC | Navigation
 
@@ -134,7 +134,7 @@ Not all features and functions are covered by these first drafts. For a full lis
     <summary>
         Wireframe images
     </summary>
-    <img src="media/readme/wireframes/homepage.png" alt="home-wireframe">
+    <img src="media/readme/celtictile-wireframe.png" alt="home-wireframe">
     <img src="media/readme/wireframes/login.png" alt="login-wireframe">
     <img src="media/readme/wireframes/signup.png" alt="signup-wireframe">
     <img src="media/readme/wireframes/contact.png" alt="contact-wireframe">
@@ -548,10 +548,11 @@ There was a valiant attempt at moving this functionality to the front-end for au
 
 ### Database Model
 
-The database model diagram was designed using [Lucidchart](https://lucid.app/publicSegments/view/7e703d23-789a-4ede-8cd1-6ab33b9c8684/image.png).
+The database model diagram was designed using
+[Lucidchart](https://lucid.app/publicSegments/view/7e703d23-789a-4ede-8cd1-6ab33b9c8684/image.png).
 The first draft of the entity relationship diagram does not include all models used in the final database.
 
-![ERD](workspace/bouti/media/Celtic-Tiles.png)
+![ERD](media/readme/ERD-diagram.png)
 
 
 ### Custom Model
@@ -950,13 +951,6 @@ Changes made to a cloned repository will affect the original one.
 The official [Django Documentation](https://docs.djangoproject.com/en/4.1/) was used throughout creating this project.
 The skeleton of this project is based on the [Code Institute](https://codeinstitute.net/ie/) tutorial ["Boutique Ado"](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546).
 
-**Basket tools**:
-
-[Django Docs on creating custom template tags](https://docs.djangoproject.com/en/4.1/howto/custom-template-tags/)
-
-**Basket items count display in navbar**:
-
-The syntax for displaying the amount of items currently in the shopping basket was taken from this [FeelFreeToCode tutorial](https://www.youtube.com/watch?v=3xQRJqxdgK4&ab_channel=FeelFreeToCode)
 
 **User alerts (toasts/messages)**:
 

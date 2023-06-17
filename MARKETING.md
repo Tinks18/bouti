@@ -116,7 +116,7 @@ Any paid marketing strategies were beyond the scope and requirements for this pr
 
 - **Location specific online presence => Google Ads (not implemented)**
 
-    ![Google mock-up](media/readme/google-buisness-mockup.png)
+    ![Google mock-up](media/readme/google-buiness-mockup.png)
 
     As Celtic Tiles is a Irish business dealing in floor tiles, it would be quite appropriate to sell and advertise their products on [Google](https://www.google.com/), Ireland's largest advertising site. Most people resident in Ireland are very familiar with google and also the older demographic, especially those of the construction community, use it a lot. Apart from searching, it's particularly popular for all adverising related products and most independent Irish businesses that operate in that sector are also present on google business.
 
