@@ -26,23 +26,23 @@ class PostDetail(View):
         )
 
 
-# Create your views here.
-# class PostList(generic.View):
-#     def get(self, request, *args, **kwargs):
-#         return render(
-#             request,
-#             'blog.html',
-#             # {
-#             #     'blog_form': BLOGForm()
-#             # }
-#         )
-# class PostList(generic.ListView):
-#     model = Post
-#     queryset = Post.objects.filter(status=1).order_by("-created_on")
-#     template_name = "blog.html"
-#     paginate_by = 6
+def contact(request):
+    """
+    Submits contact us form to the admin dashboard.
 
-
+    """
+    submitted = False
+    if request.method == "POST":
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/contact?submitted = True')
+    else:
+        form = ContactForm()
+        if 'submitted' in request.GET:
+            submitted = True
+    return render(request, 'contact.html',
+                  {'form': form, 'submitted': submitted})
 
 
 
