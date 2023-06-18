@@ -135,16 +135,7 @@ Not all features and functions are covered by these first drafts. For a full lis
         Wireframe images
     </summary>
     <img src="media/readme/celtictile-wireframe.png" alt="home-wireframe">
-    <img src="media/readme/wireframes/login.png" alt="login-wireframe">
-    <img src="media/readme/wireframes/signup.png" alt="signup-wireframe">
-    <img src="media/readme/wireframes/contact.png" alt="contact-wireframe">
-    <img src="media/readme/wireframes/profile.png" alt="profile-wireframe">
-    <img src="media/readme/wireframes/products.png" alt="products-wireframe">
-    <img src="media/readme/wireframes/product-detail.png" alt="product-detail-wireframe">
-    <img src="media/readme/wireframes/basket.png" alt="basket-wireframe">
-    <img src="media/readme/wireframes/checkout.png" alt="checkout-wireframe">
-    <img src="media/readme/wireframes/blog.png" alt="blog-wireframe">
-    <img src="media/readme/wireframes/blog-entry.png" alt="blog-entry-wireframe">
+    
 </details>
 
 ### Site Goals
@@ -265,8 +256,9 @@ For an extensive overview of the marketing research for this project, please ref
 - Shop logo as default home link
 - Navigation options dependant of user authentication/authorisation
 
-![navbar desktop](/media/readme/navigation_bar.png)
-![navbar mobile](/media/readme/features/nav-mobile.png)
+- ![navbar desktop](/media/readme/navigation_bar.png)
+- Navigation on mobie devuces:
+- ![navbar mobile](/media/readme/nav-mobile.png)
 
 
 **Footer**
@@ -277,28 +269,29 @@ For an extensive overview of the marketing research for this project, please ref
 - Contains link to privacy policy
 - Newsletter sign up option
 
-![footer desktop](/media/readme/features/footer.png)
-![footer mobile](/media/readme/features/footer-mobile.png)
+- ![footer desktop](/media/readme/footer_desktop.png)
+- footer on mobile devices:
+- ![footer mobile](/media/readme/footer_mobile.png)
 
 **Home page**
 
 - Home page with banner image and introduction
 - Shop Now button ("Buy Tiles")
 
-![home page](/media/readme/features/home.png)
+![home page](/media/readme/home-page.png)
 
 **About page**
 
 - General info about store 
 
-![about page](/media/readme/features/about.png)
+![about page](/media/readme/about-page.png)
 
 **Privacy policy**
 
 - Standard GDPR compliant privacy policy page 
 - Linked to in footer
 
-![privacy policy](/media/readme/features/privacy.png)
+![privacy policy](/media/readme/privacy_policy.png)
 
 Image does not contain entire policy document. Visit site to view full policy.
 
@@ -308,7 +301,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Informs user of invalid URL
 - Back button redirects user back to home page
 
-![404 page](/media/readme/features/404.png)
+![404 page](/media/readme/404-error.png)
 
 **User feedback**
 
@@ -326,22 +319,22 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Allows new users to create account
 - Sign up process includes confirmation email with confirmation link
 
-![sign up](/media/readme/features/signup.png)
+![sign up](/media/readme/sign-up.png)
 
-![confirm email](/media/readme/features/confirm-email.png)
+![confirm email](/media/readme/verify-email.png)
 
 **Login**
 
 - Allows existing users to log into their account
 - Includes Remember me checkbox and Forgot Password option
 
-![login](/media/readme/features/login.png)
+![login](/media/readme/sign-in.png)
 
 **Logout**
 
 - Allows authenticated users to securely log out of their account
 
-![logout](/media/readme/features/logout.png)
+![logout](/media/readme/logout.png)
 
 #### Products
 
@@ -350,14 +343,14 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Lists all categories of products
 - Links to blog and contact info
 
-![categories](/media/readme/features/categories.png)
+![categories](/media/readme/landing-page.png)
 
 **Products page (of same category)**
 
 - Lists all products of the same category
 - Quick link to All Products page
 
-![products](/media/readme/features/products-layers.png)
+![products](/media/readme/deals.png)
 
 **Product details page**
 
@@ -368,7 +361,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Add to basket button
 - Edit and delete option for authorised users for each product
 
-![product details](/media/readme/features/products-details.png)
+![product details](/media/readme/product-detail.png)
 
 **Add Product page**
 
@@ -377,7 +370,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Cancel button
 - Add product button to add product to database
 
-![add product](/media/readme/features/add-product.png)
+![add product](/media/readme/add-product.png)
 
 **Edit Product page**
 
@@ -387,7 +380,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Cancel button
 - Update product button to update existing product in database
 
-![edit product](/media/readme/features/edit-product.png)
+![edit product](/media/readme/edit-product.png)
 
 **Delete Product option**
 
@@ -397,7 +390,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Cancel button
 - Delete button to delete existing product from database
 
-![delete product](/media/readme/features/delete-product.png)
+![delete product](/media/readme/delete-product2.png)
 
 
 #### Celtic Blog
