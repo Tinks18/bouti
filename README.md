@@ -393,6 +393,53 @@ Image does not contain entire policy document. Visit site to view full policy.
 ![delete product](/media/readme/delete-product2.png)
 
 
+#### Shopping Basket
+
+
+**Shopping Basket**
+
+- Tabular view of currently selected products and their quantity
+- Quantity adjustment option
+- Product removal option
+- Display of subtotal, delivery cost (currently always 0) and grand total
+- Continue shopping button
+- Proceed to checkout option
+
+![basket](/media/readme/shoppingbag.png)
+
+
+#### Checkout
+
+**Checkout page**
+
+- Checkout form, including sections for personal info, contact details and card details
+- Option to save details to profile for authenticated users
+- Current order summery
+- Edit Basket button
+- Pay now button
+
+![checkout page](/media/readme/chkout.png)
+
+**Checkout Success page**
+
+- Confirms successfull order and informs user that email was sent to the address specified
+- Displays order details, contact and billing info
+- Continue Shopping button ("Back to products")
+
+![checkout success](/media/readme/chkout-success.png)
+
+
+#### Profile
+
+**User Profile page**
+
+- Contact address form (pre-populated if user has previously saved his info)
+- Update Info button
+- Listing of past orders in order history
+
+![user profile](/media/readme/profile.png)
+
+
 #### Celtic Blog
 
 **Blog page**
@@ -456,57 +503,6 @@ Image does not contain entire policy document. Visit site to view full policy.
 ![blog responses](/media/readme/features/blog-response.png)
 
 
-#### Shopping Basket
-
-**Basket items in nav**
-
-- Live update of basket status in navbar
-- Counter in nav element displays only the number of different products, not the total of all products. The reason for this is, that in case of tiles customers are quite likely to order larger numbers of each product. These figures would get too large too quickly. This is why I opted for the current option.
-
-![basket nav](/media/readme/features/basket-nav.png)
-
-**Shopping Basket**
-
-- Tabular view of currently selected products and their quantity
-- Quantity adjustment option
-- Product removal option
-- Display of subtotal, delivery cost (currently always 0) and grand total
-- Continue shopping button
-- Proceed to checkout option
-
-![basket](/media/readme/features/basket.png)
-
-
-#### Checkout
-
-**Checkout page**
-
-- Checkout form, including sections for personal info, contact details and card details
-- Option to save details to profile for authenticated users
-- Current order summery
-- Edit Basket button
-- Pay now button
-
-![checkout page](/media/readme/features/checkout.png)
-
-**Checkout Success page**
-
-- Confirms successfull order and informs user that email was sent to the address specified
-- Displays order details, contact and billing info
-- Continue Shopping button ("Back to products")
-
-![checkout success](/media/readme/features/checkout-success.png)
-
-
-#### Profile
-
-**User Profile page**
-
-- Contact address form (pre-populated if user has previously saved his info)
-- Update Info button
-- Listing of past orders in order history
-
-![user profile](/media/readme/features/profile.png)
 
 
 ### Possible Future Features
