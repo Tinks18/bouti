@@ -28,8 +28,7 @@ class PostDetail(View):
 
 def contact(request):
     """
-    Submits contact us form to the admin dashboard.
-
+    Submits contact  form 
     """
     submitted = False
     if request.method == "POST":
@@ -43,11 +42,3 @@ def contact(request):
             submitted = True
     return render(request, 'contact.html',
                   {'form': form, 'submitted': submitted})
-
-
-
-
-
-
-# def post_list(request):
-#     return render(request, 'blog/post_list.html')
