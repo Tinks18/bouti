@@ -448,7 +448,7 @@ Image does not contain entire policy document. Visit site to view full policy.
 - Tiles show title, excerpt, image, create-date and category
 - Category button filters all entries by respective category (see below)
 
-![Blog page](/media/readme/features/blog.png)
+![Blog page](/media/readme/celtic-blog.png)
 
 
 
