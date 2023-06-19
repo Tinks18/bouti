@@ -1,8 +1,7 @@
-
+from django.shortcuts import render
 from django.shortcuts import render, get_object_or_404
 from django.views import generic, View
-from .models import Post, Contact
-from .forms import ContactForm
+from .models import Post
 
 
 class PostList(generic.ListView):
@@ -26,7 +25,20 @@ class PostDetail(View):
              },
         )
 
-    def contact(request):
+
+def contact(request):
+    """
+    Submits contact  form 
+    """
+    submitted = False
+    if request.method == "POST":
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/contact?submitted = True')
+    else:
         form = ContactForm()
-        context = {'form': form}
-        return render(request, 'contact.html', context)
+        if 'submitted' in request.GET:
+            submitted = True
+    return render(request, 'contact.html',
+                  {'form': form, 'submitted': submitted})

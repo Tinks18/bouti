@@ -33,18 +33,10 @@ class Post(models.Model):
         return self.title
 
 
-# class Contact(models.Model):
-#     name = models.CharField(max_length=158)
-#     email = models.EmailField()
-#     message = models.TextField()
-
-#     def __str__(self):
-#         return self.name
-
 class Contact(models.Model):
-    email = models.EmailField(max_length=300)
-    subject = models.CharField(max_length=255)
-    message = models.TextField(max_length=1000)
+    name = models.CharField(max_length=158)
+    email = models.EmailField()
+    message = models.TextField()
 
     def __str__(self):
-        return self.email
+        return self.name
