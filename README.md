@@ -450,59 +450,6 @@ Image does not contain entire policy document. Visit site to view full policy.
 
 ![Blog page](/media/readme/features/blog.png)
 
-**Filter option**
-
-- Category tag in each entry tile acts as filter button
-- When clicked, Clear Filter button is displayed above fitler result
-
-![filter option](/media/readme/features/filter.png)
-
-**Entry detail**
-
-- Shows complete content of blog post
-- Edit and delete option for authorised users for each entry
-
-![blog entry](/media/readme/features/blog-entry.png)
-
-**Add Entry**
-
-- Authorised admin users only!
-- Complete blog entry form with image upload option
-- Cancel button
-- Add entry button to add entry to database
-
-![add entry](/media/readme/features/add-entry.png)
-
-**Edit Entry page**
-
-- Authorised admin users only!
-- Complete blog entry form with image upload option
-- Form is pre-populated with existing entry's details
-- Cancel button
-- Update entry button to update existing entry in database
-
-![edit entry](/media/readme/features/edit-entry.png)
-
-**Delete Entry option**
-
-- Authorised admin users only!
-- Option on blog entry page
-- Request for user confirmation before deleting entry
-- Cancel button
-- Delete button to delete existing entry from database
-
-![delete product](/media/readme/features/delete-entry.png)
-
-**Response form and display**
-
-- Post response: authenticated users only!
-- Response form under entry content
-- All submitted responses need admin approval (user alert after form submit about wait for approval)
-- Approved responses listed below response form, including author, post-date and content
-
-![blog responses](/media/readme/features/blog-response.png)
-
-
 
 
 ### Possible Future Features
