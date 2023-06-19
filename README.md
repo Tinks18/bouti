@@ -1,6 +1,6 @@
 # Celtic Tiles
 
-![Products](media/celtic-tile-logo.png)
+![Products](media/Celtic-Tile-Logo.png)
 
 ***
 ## Introduction
@@ -10,7 +10,7 @@ This a Django based (fictional!) e-commerce application which is the last of 5 r
 Celtic Tiles is the online store of a small business based in the West of Ireland, specialising in floor tiles. The store offers a variety of floor tiles and all wall tiles. Currently the business offers in-store collection of orders only with a limited range of home delivery planned for the future.
 On their site, Celtic Tiles also host a blog about all things tiles. Articles published by the business itself are posted on a regular basis, offering helpful advice about tiles, interesting facts about different tiles or the latest recommendations on maintenance etc.
 
-![responsive mockup](/media/readme/mockup.png)
+![responsive mockup](/media/readme/website-mockup.png)
 
 [Link to live site](https://celtic.herokuapp.com/) 
 
