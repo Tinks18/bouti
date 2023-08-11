@@ -94,7 +94,7 @@ Lighthouse comes integrated by default as part of development tools (DevTools) i
 
 Website excelled in performance, while other areas have more room for improvement.
 
-![lighthouse](media/lighthouse-summary.png)
+![lighthouse](media/readme/light%20house%20report.png)
 
 <details>
  <summary>Performance</summary>
