@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Add Review{% endblock %}
+
+
+{% block content %}
+{% for review in reviews %}
+        <p>{{ review.name }}</p>
+        <p>{{ review.title }}</p>
+        <p>{{ review.product_name }}</p>
+        <p> {{ review.review_date }}</p>
+        <p>{{ review.content|safe }}</p>
+        <p>{{ review.rating }}</p>
+        {% if request.user == review.user %}
+        {% endif %}
+    {% endfor %}
+{% endblock %}
+
+        
+        <p>{{ review.content|safe }}</p>
+        <p>{{ review.rating }}</p>

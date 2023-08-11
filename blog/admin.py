@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post, Response
+from .models import Post, Response, Review
 from django_summernote.admin import SummernoteModelAdmin
 
 
@@ -22,3 +22,5 @@ class ResponseAdmin(admin.ModelAdmin):
 
     def approve_responses(self, request, queryset):
         queryset.update(approved=True)
+
+admin.site.register(Review)

@@ -2,8 +2,15 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, reverse
 from django.http import HttpResponseRedirect
 from django.views import generic, View
-from .models import Post
-from .forms import ContactForm, ResponseForm
+from .models import Post, Review
+from .forms import ContactForm, ResponseForm, ReviewForm
+from django.views.generic import (
+    ListView, CreateView, )
+
+
+from django.contrib.auth.mixins import (
+    UserPassesTestMixin, LoginRequiredMixin
+)
 
 
 class PostList(generic.ListView):
@@ -110,3 +117,21 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('blog/post_detail', args=[slug]))
+
+
+class Reviews(ListView):
+    model = Review
+    template_name = "blog/reviews.html"
+    context_object_name = 'reviews'
+
+
+class CreateReview(LoginRequiredMixin, CreateView):
+    """ View to create a review """
+    template_name = 'blog/add_review.html'
+    model = Review
+    form_class = ReviewForm
+    success_url = '/'
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(CreateReview, self).form_valid(form)
