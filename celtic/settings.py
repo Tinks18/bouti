@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 # DEBUG = False
-ALLOWED_HOSTS = ['celtic.herokuapp.com', '8000-tinks18-bouti-xoznh8xs1ue.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['celtic.herokuapp.com', '8000-tinks18-bouti-xoznh8xs1ue.ws-eu102.gitpod.io']
 
 
 # Application definition
@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     'profiles',
     'django_summernote',
     'blog',
-
 
     # Other
     'crispy_forms',

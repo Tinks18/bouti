@@ -126,7 +126,7 @@ For full details please check out our link on Github: [V.S. Store User Stories](
 
 ### Wireframes
 
-The initial [wireframes in Figma](https://www.figma.com/proto/vwwVAhh3tMu2aiEAxotMke/Celtic-tiles?type=design&node-id=1-2&scaling=scale-down&page-id=0%3A1) are an overly simplified version of the finished product and merely served the purpose of listing most of the site's essential features.
+The initial [wireframes in Figma](https://www.figma.com/file/tgnMK74N3IZiCVPdSO5K9I/CELTIC-TILES-DESIGN?type=design&node-id=0-1&mode=design&t=qAXnOEmCxTGdlqVO-0) are an overly simplified version of the finished product and merely served the purpose of listing most of the site's essential features.
 
 Not all features and functions are covered by these first drafts. For a full list of existing features see [Features](#features)
 
@@ -134,8 +134,15 @@ Not all features and functions are covered by these first drafts. For a full lis
     <summary>
         Wireframe images
     </summary>
-    <img src="media/readme/celtictile-wireframe.png" alt="home-wireframe">
-    
+    Home-first draft: <img src="media/readme/celtictile-wireframe.png" alt="home-wireframe">
+    Home-Page: <img src="media/readme/Home.png" alt="profile-detail-wireframe">
+    Login: <img src="media/readme/Login.png" alt="login-wireframe">
+    SignUp: <img src="media/readme/Sign-up.png" alt="signup-wireframe">
+    Product:<img src="media/readme/Products.png" alt="products-wireframe">
+    Product Details:<img src="media/readme/Product-detail.png" alt="products-wireframe">
+    Basket: <img src="media/readme/Basket.png" alt="basket-wireframe">
+    Checkout: <img src="media/readme/Checkout.png" alt="checkout-wireframe">
+    Profile: <img src="media/readme/Profile.png" alt="profile-detail-wireframe">    
 </details>
 
 ### Site Goals
