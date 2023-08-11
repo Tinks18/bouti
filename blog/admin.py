@@ -23,4 +23,9 @@ class ResponseAdmin(admin.ModelAdmin):
     def approve_responses(self, request, queryset):
         queryset.update(approved=True)
 
-admin.site.register(Review)
+
+@admin.register(Review)
+class ReviewAdmin(SummernoteModelAdmin):
+    list_display = ('title', 'product_name', 'content', 'rating')
+    search_fields = ['title', 'content']
+    summernote_fields = ('content',)

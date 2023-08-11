@@ -121,13 +121,13 @@ class PostLike(View):
 
 class Reviews(ListView):
     model = Review
-    template_name = "blog/reviews.html"
+    template_name = "reviews.html"
     context_object_name = 'reviews'
 
 
 class CreateReview(LoginRequiredMixin, CreateView):
     """ View to create a review """
-    template_name = 'blog/add_review.html'
+    template_name = 'add_review.html'
     model = Review
     form_class = ReviewForm
     success_url = '/'
