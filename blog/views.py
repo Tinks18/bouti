@@ -1,8 +1,9 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, reverse
+from django.http import HttpResponseRedirect
 from django.views import generic, View
 from .models import Post
-from .forms import ContactForm
+from .forms import ContactForm, ResponseForm
 
 
 class PostList(generic.ListView):
@@ -29,7 +30,7 @@ class PostDetail(View):
 
 def contact(request):
     """
-    Submits contact  form 
+    Submits contact  form
     """
     submitted = False
     if request.method == "POST":
@@ -43,3 +44,69 @@ def contact(request):
             submitted = True
     return render(request, 'blog/contact.html',
                   {'form': form, 'submitted': submitted})
+
+
+class PostDetail(View):
+
+    def get(self, request, slug, *args, **kwargs):
+        queryset = Post.objects.filter(status=1)
+        post = get_object_or_404(queryset, slug=slug)
+        response = post.response.filter(approved=True).order_by("-created_on")
+        liked = False
+        if post.likes.filter(id=self.request.user.id).exists():
+            liked = True
+
+        return render(
+            request,
+            "blog/post_detail.html",
+            {
+                "post": post,
+                "response": response,
+                "response": False,
+                "liked": liked,
+                "response_form": ResponseForm()
+            },
+        )
+
+    def post(self, request, slug, *args, **kwargs):
+
+        queryset = Post.objects.filter(status=1)
+        post = get_object_or_404(queryset, slug=slug)
+        response = post.response.filter(approved=True).order_by("-created_on")
+        liked = False
+        if post.likes.filter(id=self.request.user.id).exists():
+            liked = True
+
+        response_form = ResponseForm(data=request.POST)
+        if response_form.is_valid():
+            response_form.instance.email = request.user.email
+            response_form.instance.name = request.user.username
+            response = response_form.save(commit=False)
+            response.post = post
+            response.save()
+        else:
+            response_form = ResponseForm()
+
+        return render(
+            request,
+            "post_detail.html",
+            {
+                "post": post,
+                "response": response,
+                "response": True,
+                "response_form": response_form,
+                "liked": liked
+            },
+        )
+
+
+class PostLike(View):
+
+    def post(self, request, slug, *args, **kwargs):
+        post = get_object_or_404(Post, slug=slug)
+        if post.likes.filter(id=request.user.id).exists():
+            post.likes.remove(request.user)
+        else:
+            post.likes.add(request.user)
+
+        return HttpResponseRedirect(reverse('blog/post_detail', args=[slug]))

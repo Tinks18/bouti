@@ -1,5 +1,5 @@
-{% extends "base.html" %} 
-{% load crispy_forms_tags %} 
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
 
 
 {% block page_header %}
@@ -11,24 +11,27 @@
 {% endblock %}
 
 {% block content %}
-  <div class="container fluid">
-    <div class="row">
+<div class="overlay"></div>
+<div class="container">
+    
+    <div class="row justify-content-center">   
+       
+        
       <!-- Section Titile -->
       <div>
-        <h3 class="section-title">Contact Us</h3>
+        <h3 class="section-title justify-content-center">Contact Us</h3>
+        
       </div>
-    </div>
-    <div class="row">
-      <!-- Section Titile -->
-      <p>Do you have a question, a concern?
-      </p>
+   
+     
+      
     </div>
     <!-- contact form -->
-    <div">
+    <div class="col-md-auto">
       <form id="contact-form" method="post"> {% csrf_token %} {{ form|crispy }}
         <!-- Form Submit -->
         <button id="submitForm" class="btn btn-dark mb-3">Send</button>
       </form>
-    </div>
   </div>
+</div>
 {% endblock %}
